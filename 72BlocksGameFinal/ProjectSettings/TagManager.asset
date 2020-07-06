@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - CandidateBase
+  - SelectBase
+  - RoadSide
+  - CastleSide
+  - VRPlayer
+  - ControlTile
+  - ForestSide
+  - ARPlayer
+  - FrozenBase
+  - FloorTile
+  - CandidateTile
+  - Fall
+  - Castle
+  - PortalEnter
+  - PortalOut
+  - MonsterTarget
+  - Monster
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - ARObject
+  - Player
+  - ControlTile
+  - HMD_Player
+  - Portal
+  - Monster
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

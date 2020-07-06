@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2067402452, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
+  m_Name: VuforiaConfiguration
+  m_EditorClassIdentifier: 
+  vuforia:
+    vuforiaLicenseKey: AdopubL/////AAABmSBoovHZLU9guCus1FaK+KJmJWMFtzplG/oKdKQSAIYYfSsiiJPtgdmfsaOb/B4YswijCLQHo3p5rLpgxg89zfi6mz/8loSgnMMcmMCZQJ9aOiWqA2cIRu0J92zn4OjC/kHWwUiRq7lTlyzQnFZwLuYgXwj2vENAQWerSd9ZxZqRdj3PTXmv5JrZaWqHO3GJacdPBIfTxT/RPUmM9D0ErgPQBsdcRoEPaQHOHg+UHcjAgLYgPYZ8jsFDMzw7IoLb8WPvJ7IU351FUqoqn9UjnBYk7CAbVAfGLpAoWkjyXo2afenTdbO0qqDb7xV+JiguBnYY2RaWDmb5KT3+BW7PHb+/VEnAYGGLh/ccnF9CsKLR
+    ufoLicenseKey: QVYyZkhBTC8vLy8vQUFBQUtNR3F2bVlXR2s2Y29uY3ZiYUtTRWM4STFrMFJJaGNNMWRWQ2doS28vYjFmak80UlNDYzYwdzFHWG5VOFZNaWxPVFpyb2Z3OG01cW56V3ZiNUE3VkgyMnlUL3BFdm9IbHFsalpDaDdQYWtxSWJWdzNua0tSUFE3eHVOd3NmUlZkV2JsLzB2d0l5OGNWRWtWVUtWOGt6bUVIWVVub2JwQzRDZTNvRy9jNXo0a3hJNDl2d3ZHSkt6MDVOWkVkb3RWYWF6L2pSZ28ycmx0bTU2VnhITmVFN2k0V2U5RUJQZFI4TGJpZ1NXUkgzaC8vOG5ZY1pMRTlTcmNNZlRCK3FXdUVHRldtTHhyVDJiS3V0OFpGRlp6aFhPMmlpT3lOUmowK290Nkxub01wZmlHRjNKSTNqa3p2bWNvTjZnNTZjUUdqdFFmV0hWS3BTZmE1RFB5SmNpWVUrY2NUblJsMjZyVmtmWjV0dXZjdGo3d0Q=
+    delayedInitialization: 0
+    cameraDeviceModeSetting: -1
+    maxSimultaneousImageTargets: 1
+    maxSimultaneousObjectTargets: 1
+    useDelayedLoadingObjectTargets: 0
+    modelTargetRecoWhileExtendedTracked: 1
+    version: 8.5.9
+    eulaAcceptedVersions: '{"Values":["0.0","8.0","8.1","8.3","8.5","7.1","7.2","7.5","7.7","7.9","8.2","8.4","7.6","7.8","2.9","8.6","9.0","8.7"]}'
+  database:
+    disableModelExtraction: 0
+  videoBackground:
+    numDivisions: 2
+    videoBackgroundShader: {fileID: 4800000, guid: f40623b353e2f1943b1b3ba42975db7a,
+      type: 3}
+    videoBackgroundEnabled: 1
+  deviceTracker:
+    autoInitTracker: 0
+    autoStartTracker: 0
+    arcoreRequirement: 0
+    autoImportArcore: 0
+  smartTerrain:
+    autoInitTracker: 0
+    autoStartTracker: 0
+  webcam:
+    deviceNameSetInEditor: "Microsoft\xAE LifeCam HD-3000"
+    turnOffWebCam: 1
+    renderTextureLayer: 30
